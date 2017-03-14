@@ -12,8 +12,12 @@
 	<form action="https://formspree.io/alurchik29@gmail.com" method="POST">
 
 
-		<label for="name">Podaj swoje Imię i Nazwisko</label>
+		<label for="name">Podaj swoje Imię</label>
 		<input type="text" id="name" name="name" />
+		<br />
+
+		<label for="nazwisko">Podaj swoje Nazwisko</label>
+		<input type="text" id="nazwisko" name="nazwisko" />
 		<br />
 
 
@@ -22,11 +26,34 @@
 		<br />
 
 
-		<label for="numer">Podaj swój numer</label>
+		<label for="numer">Podaj swój numer telefonu</label>
 		<input type="Numer" id="numer" name="numer" />
+		<br/>
+
+		<label for="miasto">Gdzie mieszkasz?</label>
+		<select name="select">
+			<option value="krakow">Kraków</option>
+			<option value="warszawa">Warszawa</option>
+			<option value="gdansk">Gdańsk</option>
+
+
+		</select>
 		<br />
 
-		<label for="message">Wiadomość</label>
+
+		<label for="plec">Podaj swoją płeć:</label>
+		<input type="radio" name="Płeć" value="Kobieta" />Kobieta
+		<input type="radio" name="Płeć" value="Mężczyzna" />Mężczyzna
+		<br />
+
+		<label for="agree">
+			<input type="checkbox" name="agree" id="agree" value="true">Wyrażam zgodę na przetwarzanie moich danych osobowych
+		</label>
+		<br />
+
+		
+		
+		<label for="message">Wiadomość</label><br />
 		<textarea name="Wiadomosc" id="message" name="message"></textarea>
 		<br />
 		<input type="submit" value="Send">
