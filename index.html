@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Git Repo</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -13,25 +13,30 @@
 
 
 		<label for="name">Podaj swoje Imię</label>
+		<br />
 		<input type="text" id="name" name="name" />
 		<br />
 
 		<label for="nazwisko">Podaj swoje Nazwisko</label>
+		<br />
 		<input type="text" id="nazwisko" name="nazwisko" />
 		<br />
 
 
 		<label for="email">Podaj swój email</label>
+		<br />
 		<input type="Email" id="email" name="_replyto" />
 		<br />
 
 
-		<label for="numer">Podaj swój numer telefonu</label>
-		<input type="Numer" id="numer" name="numer" />
+		<label for="tel">Podaj swój numer telefonu</label>
+		<br/>
+		<input type="tel" id="tel" name="tel" />
 		<br/>
 
 		<label for="miasto">Gdzie mieszkasz?</label>
-		<select name="select">
+		<br />
+		<select name="miasto" id="miasto">
 			<option value="krakow">Kraków</option>
 			<option value="warszawa">Warszawa</option>
 			<option value="gdansk">Gdańsk</option>
@@ -42,21 +47,27 @@
 
 
 		<label for="plec">Podaj swoją płeć:</label>
-		<input type="radio" name="Płeć" value="Kobieta" />Kobieta
+		<br />
+		<input type="radio" name="Płeć" value="Kobieta" id="plec" />Kobieta
 		<input type="radio" name="Płeć" value="Mężczyzna" />Mężczyzna
 		<br />
+
+		<label for="message">Wiadomość</label>
+		<br />
+		<textarea name="Wiadomosc" id="message"></textarea>
+		<br />
+		<input type="submit" value="Send">
+		<br />
+
 
 		<label for="agree">
 			<input type="checkbox" name="agree" id="agree" value="true">Wyrażam zgodę na przetwarzanie moich danych osobowych
 		</label>
 		<br />
 
-		
-		
-		<label for="message">Wiadomość</label><br />
-		<textarea name="Wiadomosc" id="message" name="message"></textarea>
-		<br />
-		<input type="submit" value="Send">
+
+
+
 	</form>
 </body>
 

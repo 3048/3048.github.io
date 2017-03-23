@@ -1,0 +1,52 @@
+form {
+	background-color: #213650;
+	color: #fff;
+}
+
+input,
+select,
+textarea {
+	background-color: #2b4a64;
+	border: 1px solid #2b4a64;
+	margin: 10px;
+	width: auto;
+	color: #fff;
+}
+
+textarea,
+option {
+	border-color: white;
+	background-color: #2b4a64;
+	color: #fff;
+}
+
+input:focus {
+	background-color: #4e708c;
+	outline: none;
+}
+
+select:focus {
+	background-color: #4e708c;
+	outline: none;
+
+}
+
+textarea:focus {
+	background-color: #4e708c;
+	border: 1px solid #4e708c;
+	outline: none;
+
+}
+input[type="submit"] {
+	color: #fff;
+	font-size: 30px;
+	border: 1px solid #fff;
+}
+
+option {
+	color: #fff;
+	outline:none;
+}
+label {
+	outline: none;
+}
